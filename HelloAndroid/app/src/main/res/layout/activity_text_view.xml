@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="金哥也想努力成功"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="100dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_string"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="筛选"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:maxLines="1"
+        android:drawableRight="@drawable/icon"
+        android:drawablePadding="5dp"/>
+
+    <TextView
+        android:id="@+id/textView_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="金哥在努力 金哥想混好"
+        android:textColor="#993322"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="金哥很牛皮，但是还得低头"
+        android:textColor="#892344"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#233223"
+        android:layout_marginTop="15dp"
+        android:text="金哥也很惆怅"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView_7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#445566"
+        android:layout_marginTop="15dp"
+        android:text="金哥想努力成为人上人,金哥想努l"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+</LinearLayout>
